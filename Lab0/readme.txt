@@ -1,2 +1,1 @@
-Alyssa Shteyn - CNET alyssashteyn
 CAAP - Introduction to Software Development
