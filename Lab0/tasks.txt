@@ -5,3 +5,4 @@ Task 6
 "Git cheat sheet: git reset [file]"
 >>>>>>> 3905e8f0b87ee08d0561f11cb6bdc4b6a5104d5c
 mistake.txt explanation: git commit -am>>git revert HEAD>>push to edit the commit without deleting the mistake version from origin history
+accidentally reverted tasks.txt instead of readme.txt, so I had to revert the revert. sorry its messy
