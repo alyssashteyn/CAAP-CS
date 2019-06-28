@@ -1,2 +1,5 @@
 Alyssa Shteyn - CNET alyssashteyn
 CAAP - Introduction to Software Development
+"modified and vim update"
+"Git is pretty cool." 
+Hopefully our last change... 
