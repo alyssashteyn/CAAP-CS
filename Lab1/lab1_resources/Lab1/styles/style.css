@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+/* Last edit: 2/18/2018 8:00 PM */
+/* Last validated error free: 2/18/2018 9:27 PM */
+
+/* Cite code */
+ul {list-style-type: none;
+margin: 0
+padding: 0}
+ul {border: 3px solid #555}
+ul {border-style: groove}
+ul {text-align: center}
+li {display: block}
+li {display: inline}
+
+
+footer {
+    border-style: none; 
+    }
+
+p {margin: auto; margin-left: 100px; margin-right: 100px;
+}
+
+body {background-image: url(strawberry-wallpaper.png);
+    background-attachment: fixed;}
+h1 {background-color: lightpink; }
+h2 {background-color: lightpink; }
+h3 {background-color: lightpink; }
+h4 {background-color: lightpink; }
+h6 {background-color: lightpink; }
+p {background-color: lightpink; }
+nav {background-color: lightpink; }
+footer {background-color: lightpink; }
+blockquote {background-color: lightpink; }
+li {background-color: lightpink}
+a {background-color: lightpink}

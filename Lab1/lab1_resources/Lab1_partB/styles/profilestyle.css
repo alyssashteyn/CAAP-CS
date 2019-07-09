@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+/* Last edit: 2/18/2018 8:00 PM */
+/* Last validated error free: 2/18/2018 9:27 PM */
+
+/* Cite code */
+
+ul {list-style-type: none;
+    margin: 100;
+    padding: 100;
+    text-align: center}
+
+li {display: block;
+    display: inline}
+
+img    {display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 20%;
+        align-content: center}
+header {
+    font-variant-ligatures: normal;
+}
+
+body {
+    background-image: url(background.jpg)
+}
+   
+li {
+    background-color: whitesmoke
+    }
+h2 {
+     background-color: darkslategray; 
+    color: white
+}
+h3 {
+     background-color: silver
+}
+
+a{
+    color: black
+}
+
+a:visited{
+    color: black
+}
+
+a:link{
+    color: black
+}
