@@ -6,8 +6,8 @@
 /* Cite code */
 
 ul {list-style-type: none;
-    margin: 100;
-    padding: 100;
+    margin: 100px;
+    padding: 100px;
     text-align: center}
 
 li {display: block;
@@ -27,14 +27,14 @@ body {
 }
    
 li {
-    background-color: whitesmoke
+    background-color: gray
     }
 h2 {
      background-color: darkslategray; 
     color: white
 }
 h3 {
-     background-color: silver
+     background-color: silver;
 }
 
 a{
@@ -42,9 +42,23 @@ a{
 }
 
 a:visited{
-    color: black
+    color: white
 }
 
 a:link{
-    color: black
+    color: white
+}
+
+a:hover{
+    color: pink
+}
+
+#special {
+    background-color: darkslategray;
+    color: white;
+        font-family: "Cambria";
+}
+#nav{
+    background-color: white;
+    color: black;
 }

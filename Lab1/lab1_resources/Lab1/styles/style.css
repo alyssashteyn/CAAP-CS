@@ -5,24 +5,19 @@
 
 /* Cite code */
 ul {list-style-type: none;
-margin: 0
+margin: 0;
 padding: 0}
 ul {border: 3px solid #555}
 ul {border-style: groove}
 ul {text-align: center}
-li {display: block}
 li {display: inline}
 
 
-footer {
-    border-style: none; 
-    }
-
-p {margin: auto; margin-left: 100px; margin-right: 100px;
+p {margin: auto; margin-left: 100; margin-right: 100;
 }
 
-body {background-image: url(strawberry-wallpaper.png);
-    background-attachment: fixed;}
+body {background-image: url(strawberry-wallpaper.css.png)}
+background-attachment:fixed; }
 h1 {background-color: lightpink; }
 h2 {background-color: lightpink; }
 h3 {background-color: lightpink; }
@@ -34,3 +29,31 @@ footer {background-color: lightpink; }
 blockquote {background-color: lightpink; }
 li {background-color: lightpink}
 a {background-color: lightpink}
+
+#header{
+    font-family: "helvetica";
+}
+
+#curated{
+    background-color: lightpink;
+}
+
+img{
+    float: none;
+    width: 50%;
+}
+
+#gif{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    align-content: center;
+}
+
+main li{display: block}
+
+footer li {
+    border-style: none;
+    display: inline;
+    }
