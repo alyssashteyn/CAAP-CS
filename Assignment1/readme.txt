@@ -1,0 +1,3 @@
+"Alyssa Shteyn alyssashteyn@uchicago.edu"
+"I used Python version 3.7"
+"you can run the specific cashier program by typing into your terminal 'python cash.py', the first screen will ask the user for the total of the purchase and the amount handed to the cashier. the program then subtracts the two given variables and divides the remainding total by  0.25 for quarters. the amount of quarters * value of quarters is subtracted from the total and the system continues to the next condition once the program can not longer subtract .25 from the remainder (x<25). the program repeats this for dimes, nickels, and pennies. it stores the amount of each coin used and returns them at the end of the program in a print statement." 
