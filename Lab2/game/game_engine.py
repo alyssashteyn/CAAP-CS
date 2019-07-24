@@ -6,7 +6,7 @@ class Engine(object):
 
 	escaped = False
 	#lives = 3
-	print("Wlcome! Select a difficulty level\nEnter 1 for 'easy', 2 for 'medium', and 3 for 'hard'.")
+	print("Welcome! Select a difficulty level\nEnter 1 for 'easy', 2 for 'medium', and 3 for 'hard'.")
 	difficulty = int(input("difficulty level: "))
 	lives = 4 - difficulty
 	print("You will have", lives, "lives.")
@@ -58,7 +58,6 @@ class Engine(object):
 
 		if (next_scene_name == 'escaped'):
 			self.escaped = True
-			print("Enter 1 to see if you made it to the leaderboard!")
 		return n_moves
 
 

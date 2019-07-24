@@ -13,3 +13,9 @@ class Score(object):
 	# returns score of player
 	def get_score(self):
 		return self.score
+
+	# def updated(self)
+	# 	return self.score
+	#
+	# def Print_board(self)
+	# 	return self.get_name

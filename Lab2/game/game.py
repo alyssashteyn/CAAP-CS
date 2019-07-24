@@ -12,7 +12,7 @@ from game_engine import Engine
 moves = 0
 name =  ''
 lives = 3
-#leaderboard = Leaderboard()
+leaderboard = Leaderboard()
 
 # what happens when the game is over
 # takes in a boolean parameter
@@ -20,8 +20,21 @@ lives = 3
 def game_over(won):
     global name
     global moves
-    score = Score(name, moves) #score = Score(name, moves)
-    print("\n Game over!.")
+    global leaderboard #score = Score(name, moves)
+    print("\n Game over!")
+
+
+    if won:
+        print(moves, "moves")
+        print("name", name)
+        score = Score(name, moves)
+        if leaderboard.update(score):
+            leaderboard.insert(score)
+    else:
+        moves = 0
+        name = ""
+    leaderboard.print_board()
+
     #if won:
     #leaderboard.update(score)
     #else:
@@ -47,7 +60,9 @@ def play_game():
         a_map = Map("doorway") ##raise ValueError ('todo')
         a_game = Engine(a_map)  #a_game = Engine(Map(doorway))
         moves = a_game.play()
-        game_over("escaped")
+        game_over(a_game.won())
+
+        #print(Leaderboard.print_board())
         #game_over(a_game.won())
 play_game()
 

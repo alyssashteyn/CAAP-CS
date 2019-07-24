@@ -3,27 +3,58 @@ from scores import Score
 
 # leaderboard keeps track of top ten highest ranking players
 class Leaderboard(object):
-	size = 10
+	size = 5
 	board = []
 
 	def __init__(self):
-		initialscore = Score("Player", 0)
 		for i in range(self.size):
-			self.board.append(initialscore)
-		#print(self.board)
+			moves = 9999
+			name = 'player'
+			score = Score(name, moves)
+			self.board.append(score)
+			self.board.sort(key=lambda x: x.get_score())
 
-	# prints the leaderboard
 	def print_board(self):
-		#print(leaderboard)
-		pass
+		#for escaped in board:	#change
+		for i in range(self.size):
+			print(str(i+1)+".)", self.board[i].get_name(), str(self.board[i].get_score()), "moves")
 
-	# checks if given score should be in the leaderboard
-	def update(self, score):
-		raise ValueError ('todo')
+	def update(self,score):
+		new_score = score.get_score()
+		for i in range(self.size):
+			if (new_score < self.board[i].get_score()):
+				return True
 
-	# inserts the score in the given position (assuming it's better or equal to the one in the given rank)
-	# moving everything below down a rank
-	def insert(self, score, i):
-		raise ValueError ('todo')
+	def insert(self, score):
+		for i in range(self.size):
+			if score.get_score() < self.board[i].get_score():
+				self.board.insert(i, score)
+				return
 
-test = Leaderboard()
+# test = Leaderboard()
+# play = Score('test', 1)
+# test.print_board()
+# if test.update(play):
+# 	test.insert(play)
+# test.print_board()
+
+## test = Leaderboard()
+
+			# player = escaped.get_name()
+			# score = escaped.get_score()
+			# print(player, ":", score)
+	#
+	# def updated(self, score):
+	# 	#if score>
+	# 	i = 0
+	# 	for currentScore in self.print_board: ## change
+	# 		if (score.get_score()<=currentScore.get_score()):
+	# 			if i == self.size-1:
+	# 				return()
+	# 			else:
+	# 				temporary = self.board[i:self.size-1]
+	# 				self.board[i] = scores
+	# 				self.board[i+1:self.score] = temporary
+	# 				break
+	# 		i +=1
+	# 	return Leaderboard()
