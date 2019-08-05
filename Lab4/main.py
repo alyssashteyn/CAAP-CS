@@ -5,7 +5,6 @@ myPen = turtle.Turtle()
 myPen.color("#000000")
 myPen.speed(0)
 boxSize = 10
-turtle.tracer(1,0)
 
 def goto_origin(myPen):
     myPen.home()

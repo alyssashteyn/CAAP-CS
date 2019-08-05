@@ -7,7 +7,6 @@ myPen = turtle.Turtle()
 myPen.color("#000000")
 myPen.speed(0)
 boxSize = 10
-turtle.tracer(1,0)
 
 def goto_origin(myPen):
     myPen.home()
@@ -42,7 +41,11 @@ def load_art_test(file_name):
             line = i[:-1]
         line_list = line.split(",")
         file_list.append(line_list)
+        print("TEST:")
+        print("file_list", file_list[0])
+        print("file_list", file_list[1:])
     return file_list[0], file_list[1:]
+
 
 def draw_test(pallet, pixels):
     for line in pixels:
