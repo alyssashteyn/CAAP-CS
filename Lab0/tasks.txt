@@ -12,3 +12,4 @@ accidentally reverted tasks.txt instead of readme.txt, so I had to revert the re
 "found --no-mouse by using command 'git log --grep=--no-mouse"
 task 8 -- use "git status" to check what I've updated since the last commit
 task 8 -- use "git status" to check what I've updated since the last commit
+this is also a mistake
