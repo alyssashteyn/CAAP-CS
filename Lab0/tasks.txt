@@ -6,3 +6,7 @@ Task 6
 >>>>>>> 3905e8f0b87ee08d0561f11cb6bdc4b6a5104d5c
 mistake.txt explanation: git commit -am>>git revert HEAD>>push to edit the commit without deleting the mistake version from origin history
 accidentally reverted tasks.txt instead of readme.txt, so I had to revert the revert. sorry its messy
+"fzf commit SHA"
+"commit c7e86ad4f1061b0cad9f64a6c9ad26f386bc1168"
+"fzf commit message: Add --no-mouse option to replace FZF_MOUSE_ENABLED"
+"found --no-mouse by using command 'git log --grep=--no-mouse"
