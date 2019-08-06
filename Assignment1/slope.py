@@ -4,7 +4,10 @@
 #been entered.
 
 def main():
-    num1, num2, num3, num4, num5 = eval(input("Enter 5 numbers separated by a comma: "))
-    sum = num1 + num2 + num3 + num4 + num5
-    print("This is the sum of you the 5 numbers you entered: ", sum)
+    n = input("how many numbers should be summed?")
+    values = []
+    for i in range (x):
+            values.append(input("enter a value"))
+    Sum = sum(values)
+    print(sum)
 main()
