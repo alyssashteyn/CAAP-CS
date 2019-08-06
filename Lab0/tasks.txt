@@ -10,3 +10,5 @@ accidentally reverted tasks.txt instead of readme.txt, so I had to revert the re
 "commit c7e86ad4f1061b0cad9f64a6c9ad26f386bc1168"
 "fzf commit message: Add --no-mouse option to replace FZF_MOUSE_ENABLED"
 "found --no-mouse by using command 'git log --grep=--no-mouse"
+task 8 -- use "git status" to check what I've updated since the last commit
+task 8 -- use "git status" to check what I've updated since the last commit
